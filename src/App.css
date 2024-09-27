@@ -316,7 +316,7 @@ footer {
 
 .footer-list li:hover .icon,
 .footer-list li:hover p {
-  color: rgba(230, 230, 230, 0.874);
+  color: #0b1d26de;
 }
 
 .copyright-terms {
