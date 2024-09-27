@@ -4,6 +4,8 @@ import ContentImage from "../components/ContentImage";
 
 import { Element } from "react-scroll";
 
+import aboutUsImage from "../assets/Background/2-enhanced.png";
+
 const AboutUs = () => {
   return (
     <div className="container">
@@ -17,7 +19,7 @@ const AboutUs = () => {
         Наша цель – информировать и обучать общество, способствуя устойчивому
         развитию и инновационным решениям в области энергосбережения."
         />
-        <ContentImage imageSource="src/assets/Background/2-enhanced.png" />
+        <ContentImage imageSource={aboutUsImage} />
       </main>
     </div>
   );

@@ -4,6 +4,8 @@ import { Link } from "react-scroll";
 
 import KeyboardArrowDownOutlinedIcon from "@mui/icons-material/KeyboardArrowDownOutlined";
 
+import logoHeader from "../assets/Logo/logo-1.svg";
+
 const FullScreen = () => {
   return (
     <div className="fullscreen">
@@ -12,7 +14,7 @@ const FullScreen = () => {
           <nav>
             <a href="">
               <div className="logo">
-                <img src="src/assets/Logo/logo-1.svg" alt="" />
+                <img src={logoHeader} alt="" />
                 <p>Мавчи сабз</p>
               </div>
             </a>

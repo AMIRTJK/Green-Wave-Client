@@ -4,6 +4,8 @@ import ContentImage from "../components/ContentImage";
 
 import { Element } from "react-scroll";
 
+import ourTasksImage from "../assets/Background/4-enhanced.png";
+
 const OurTasks = () => {
   return (
     <div className="container">
@@ -28,7 +30,7 @@ const OurTasks = () => {
             </>
           }
         />
-        <ContentImage imageSource="src/assets/Background/4-enhanced.png" />
+        <ContentImage imageSource={ourTasksImage} />
       </main>
     </div>
   );

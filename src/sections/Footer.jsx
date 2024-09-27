@@ -4,6 +4,8 @@ import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import TelegramIcon from "@mui/icons-material/Telegram";
 import InstagramIcon from "@mui/icons-material/Instagram";
 
+import footerLogoImage from "../assets/Logo/logo-1.svg";
+
 const Footer = () => {
   return (
     <footer>
@@ -11,11 +13,7 @@ const Footer = () => {
         <div className="content-footer">
           <div className="logo-footer">
             <a href="">
-              <img
-                className="footer-image"
-                src="src/assets/Logo/logo-1.svg"
-                alt=""
-              />
+              <img className="footer-image" src={footerLogoImage} alt="" />
             </a>
             <p>
               «Мавчи Сабз» – общественное объединение по эффективному

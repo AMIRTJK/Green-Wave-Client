@@ -3,6 +3,8 @@ import ContentText from "../components/ContentText";
 import ContentImage from "../components/ContentImage";
 import FormRequest from "../components/FormRequest";
 
+import howToBeMemberImage from "../assets/Background/9-enhanced.png";
+
 const HowToBeMember = () => {
   return (
     <div className="container">
@@ -14,7 +16,7 @@ const HowToBeMember = () => {
         >
           <FormRequest />
         </ContentText>
-        <ContentImage imageSource="src/assets/Background/9-enhanced.png" />
+        <ContentImage imageSource={howToBeMemberImage} />
       </main>
     </div>
   );

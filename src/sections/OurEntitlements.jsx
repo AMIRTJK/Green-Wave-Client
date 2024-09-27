@@ -2,11 +2,13 @@ import React from "react";
 import ContentText from "../components/ContentText";
 import ContentImage from "../components/ContentImage";
 
+import ourEntitlementsImage from "../assets/Background/5-enhanced.png";
+
 const OurEntitlements = () => {
   return (
     <div className="container">
       <main className="about-us">
-        <ContentImage imageSource="src/assets/Background/5-enhanced.png" />
+        <ContentImage imageSource={ourEntitlementsImage} />
         <ContentText
           chapter="Наши права"
           title="Каковы основные права вашей организации?"

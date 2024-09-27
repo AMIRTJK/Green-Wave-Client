@@ -2,12 +2,13 @@ import React from "react";
 
 import ContentImage from "../components/ContentImage";
 import ContentText from "../components/ContentText";
+import ourGoalsImage from "../assets/Background/3-enhanced.png";
 
 export const OurGoals = () => {
   return (
     <div className="container">
       <main className="about-us">
-        <ContentImage imageSource="src/assets/Background/3-enhanced.png" />
+        <ContentImage imageSource={ourGoalsImage} />
         <ContentText
           chapter="Наши цели"
           title="Какие цели мы преследуем в нашей деятельности и как планируем их достичь?"
