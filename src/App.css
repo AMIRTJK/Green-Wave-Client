@@ -29,7 +29,7 @@ input {
       rgba(11, 29, 38, 0.05) 80%,
       #a3c9a8 100%
     ),
-    url("./assets/Background/1-enhanced.png");
+    url("./assets/Background/1-enhanced.avif");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

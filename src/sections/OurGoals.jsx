@@ -2,7 +2,7 @@ import React from "react";
 
 import ContentImage from "../components/ContentImage";
 import ContentText from "../components/ContentText";
-import ourGoalsImage from "../assets/Background/3-enhanced.png";
+import ourGoalsImage from "../assets/Background/3-enhanced.avif";
 
 export const OurGoals = () => {
   return (

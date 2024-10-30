@@ -2,7 +2,7 @@ import React from "react";
 import ContentText from "../components/ContentText";
 import ContentImage from "../components/ContentImage";
 
-import ourEntitlementsImage from "../assets/Background/5-enhanced.png";
+import ourEntitlementsImage from "../assets/Background/5-enhanced.avif";
 
 const OurEntitlements = () => {
   return (

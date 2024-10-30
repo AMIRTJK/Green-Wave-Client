@@ -3,7 +3,7 @@ import ContentText from "../components/ContentText";
 import ContentImage from "../components/ContentImage";
 import FormRequest from "../components/FormRequest";
 
-import howToBeMemberImage from "../assets/Background/9-enhanced.png";
+import howToBeMemberImage from "../assets/Background/9-enhanced.avif";
 
 const HowToBeMember = () => {
   return (

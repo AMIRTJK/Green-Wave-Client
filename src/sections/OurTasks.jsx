@@ -4,7 +4,7 @@ import ContentImage from "../components/ContentImage";
 
 import { Element } from "react-scroll";
 
-import ourTasksImage from "../assets/Background/4-enhanced.png";
+import ourTasksImage from "../assets/Background/4-enhanced.avif";
 
 const OurTasks = () => {
   return (

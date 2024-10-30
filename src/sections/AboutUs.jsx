@@ -4,7 +4,7 @@ import ContentImage from "../components/ContentImage";
 
 import { Element } from "react-scroll";
 
-import aboutUsImage from "../assets/Background/2-enhanced.png";
+import aboutUsImage from "../assets/Background/2-enhanced.avif";
 
 const AboutUs = () => {
   return (
