@@ -17,6 +17,7 @@ export const sendRequestEmail = async (formData) => {
           "Content-Type": "application/json",
         },
         body: JSON.stringify(formData),
+        credentials: "include", // добавляем для включения учетных данных
       }
     );
 
